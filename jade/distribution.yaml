@@ -213,7 +213,7 @@ repositories:
       packages:
       - baxter_sdk
       tags:
-        release: release/{version}
+        release: release-{version}
       url: https://github.com/RethinkRobotics/baxter.git
       version: 1.2.0-0
     status: developed
@@ -226,7 +226,7 @@ repositories:
       - baxter_maintenance_msgs
       - rethink_ee_description
       tags:
-        release: release/{version}
+        release: release-{version}
       url: https://github.com/RethinkRobotics/baxter_common.git
       version: 1.2.0-0
     status: developed
@@ -237,14 +237,14 @@ repositories:
       version: master
     release:
       tags:
-        release: release/{version}
+        release: release-{version}
       url: https://github.com/RethinkRobotics/baxter_examples.git
       version: 1.2.0-0
     status: developed
   baxter_interface:
     release:
       tags:
-        release: release/{version}
+        release: release-{version}
       url: https://github.com/RethinkRobotics/baxter_interface.git
       version: 1.2.0-0
     status: developed
@@ -259,14 +259,14 @@ repositories:
       - baxter_sim_kinematics
       - baxter_simulator
       tags:
-        release: release/{version}
+        release: release-{version}
       url: https://github.com/RethinkRobotics/baxter_simulator.git
       version: 1.2.1-0
     status: developed
   baxter_tools:
     release:
       tags:
-        release: release/{version}
+        release: release-{version}
       url: https://github.com/RethinkRobotics/baxter_tools.git
       version: 1.2.0-0
     status: developed
